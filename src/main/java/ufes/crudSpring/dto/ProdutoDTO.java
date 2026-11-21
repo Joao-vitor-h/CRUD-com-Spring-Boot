@@ -1,4 +1,4 @@
 package ufes.crudSpring.dto;
 
-public class ProdutoDTO {
+public record ProdutoDTO(String nome, Long preco) {
 }
